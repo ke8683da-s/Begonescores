@@ -1,0 +1,54 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# VSCode config stuff
+!.vscode/c_cpp_properties.json
+!.vscode/tasks.json
+
+# NDK stuff
+out/
+[Ll]ib/
+[Ll]ibs/
+[Oo]bj/
+[Oo]bjs/
+ndkpath.txt
+*.zip
+*.json
+.vscode/tasks.json
+.vscode/c_cpp_properties.json
+.vs/slnx.sqlite
+.vs/ProjectSettings.json
+.vs/CMake Overview
+.vs/!BeGoneScores/v16/ipch/AutoPCH/9f3973574860cc52/TOGGLE.ipch
+.vs/!BeGoneScores/v16/Browse.VC.opendb
+.vs/!BeGoneScores/v16/Browse.VC.db
