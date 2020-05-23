@@ -26,15 +26,7 @@ static void SetSpacing(float spacing)
 
 std::string GetTextfrombool(bool bol)
 {
-    if (bol)
-    {
-        return "on";
-    }
-    else
-    {
-        return "off";
-    }
-
+    return (bol) ? "on" : "off";
 }
 
 void Destroy(Il2CppObject* obj)
